@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 200px);
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    width: fit-content;
+}
+
+.header-menu div {
+    cursor: pointer;
+}
+
+.header-menu__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6px;
+    width: 12px;
+    transform: rotate(180deg);
+}
+
+.header-menu__features {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-menu__bold {
+    font-weight: 600;
+}
+
+.round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.round-container{
+    display: flex;
+    gap:47px;
+    margin-left: 13px;
+}
