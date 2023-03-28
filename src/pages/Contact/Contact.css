@@ -1,7 +1,8 @@
-.contactsContainer {
+.contacts-container {
     width: 100%;
     height: fit-content;
     padding: 41px 100px;
+    background-color: #FBFBFB;
 }
 
 .main-part {
@@ -27,7 +28,8 @@
     font-weight: 700;
 }
 
-.main-part_contact-us span:nth-of-type(2){
+.main-part_contact-us span:nth-of-type(2) {
     font-size: 18px;
-    color:#717171;
+    font-weight: 500;
+    color: #717171;
 }
