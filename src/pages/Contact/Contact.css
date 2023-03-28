@@ -3,3 +3,31 @@
     height: fit-content;
     padding: 41px 100px;
 }
+
+.main-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: calc(100% - 200px);
+    margin-top: 70px;
+}
+
+.main-part_contact-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-part_contact-us span:nth-of-type(1) {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-part_contact-us span:nth-of-type(2){
+    font-size: 18px;
+    color:#717171;
+}
