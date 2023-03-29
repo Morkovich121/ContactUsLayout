@@ -11,3 +11,40 @@
     align-items: center;
     gap: 28px;
 }
+
+@media (max-width:1200px) {
+
+    .left-part__info {
+        width: 220px;
+        gap: 20px;
+    }
+
+    .left-part__info div {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .left-part__info div span {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .gap20 .mobile-info {
+        align-items: flex-start;
+    }
+
+    .gap20 .mobile-info div {
+        align-items: flex-start;
+    }
+
+    .gap20 .mobile-info div span {
+        text-align: left;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1250px) {
+    .left-part__info div span {
+        font-size: 12px;
+    }
+}

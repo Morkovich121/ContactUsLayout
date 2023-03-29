@@ -10,12 +10,12 @@ const Footer = () => {
             <Logo itemClass='footer__logo' />
             <div className='footer-info'>
                 <div className="footer-info__line"></div>
-                <div className="footer-info-text">
-                    <div className="gap20 footer-info_reach-us">
-                        <div className='footer-info__header'>Reach us</div>
-                        <ContactInfo />
-                    </div>
-                    <div className='footer-info-middle'>
+                <div className='footer-info-text'>
+                    <div className="mobile-info">
+                        <div className="gap20 footer-info_reach-us">
+                            <div className='footer-info__header'>Reach us</div>
+                            <ContactInfo />
+                        </div>
                         <div className="gap20 footer-info_company">
                             <div className='footer-info__header'>Company</div>
                             <div className='gap25 footer-contact-info'>
@@ -24,6 +24,8 @@ const Footer = () => {
                                 <a href="/">Blogs</a>
                             </div>
                         </div>
+                    </div>
+                    <div className="mobile-info">
                         <div className="gap20 footer-info_legal">
                             <div className='footer-info__header'>Legal</div>
                             <div className='gap25 footer-contact-info'>

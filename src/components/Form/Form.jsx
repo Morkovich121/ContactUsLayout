@@ -71,7 +71,10 @@ const Form = () => {
                 <svg className='circle small' width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="69" cy="69" r="69" fill="#484848" fillOpacity="0.5" />
                 </svg>
-                <svg className='circle' width="184" height="183" viewBox="0 0 184 183" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='circle mobile' width="80" height="102" viewBox="0 0 80 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="96" cy="96" r="96" fill="#1A1A1A" />
+                </svg>
+                <svg className='circle desktop' width="184" height="183" viewBox="0 0 184 183" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_1_714)">
                         <circle cx="138.5" cy="134.5" r="134.5" fill="#1A1A1A" />
                     </g>
@@ -164,8 +167,10 @@ const Form = () => {
                 <div className="right-part__message">
                     <Input label='Message' placeholder='Write your message..' />
                 </div>
-                <button className='send-message'>Send Message</button>
-                <img src={sendLetter} alt='' className='letter' />
+                <div>
+                    <button className='send-message'>Send Message</button>
+                    <img src={sendLetter} alt='' className='letter' />
+                </div>
             </div>
         </div >
     )

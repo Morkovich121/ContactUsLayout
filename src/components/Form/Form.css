@@ -217,3 +217,125 @@ input[type='radio']:checked+div .active {
     height: 112px;
     transform: rotate(-29.75deg);
 }
+
+.mobile {
+    display: none;
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .select-items__item label {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .form-container {
+        flex-direction: column;
+        height: fit-content;
+        padding: 5px;
+        padding-bottom: 0;
+        gap: 10px;
+    }
+
+    .form-container_left-part {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 15px 50px;
+    }
+
+    .form-container_right-part {
+        width: 100%;
+    }
+
+    .left-part__header {
+        align-items: center;
+        width: 210px;
+        gap: 6px;
+    }
+
+    .left-part__header span:nth-of-type(1) {
+        font-size: 20px;
+    }
+
+    .left-part__header span:nth-of-type(2) {
+        font-size: 11px;
+    }
+
+    .left-part__contact {
+        margin-top: 45px;
+    }
+
+    .circle {
+        width: 60px;
+        height: 96px;
+        left: calc(100% - 60px);
+        top: calc(100% - 96px);
+    }
+
+    .small {
+        width: 54px;
+        height: 54px;
+        left: calc(95% - 54px);
+        top: calc(90% - 54px);
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-container_right-part {
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 0;
+        gap: 25px;
+    }
+
+    .input_item {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .right-part__input {
+        gap: 20px;
+    }
+
+    .select-items {
+        flex-wrap: wrap;
+    }
+
+    .select-items__item {
+        width: calc(50% - 10px);
+    }
+
+    .select-items__item label {
+        font-size: 11px;
+    }
+
+    .send-message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    .letter{
+        position: relative;
+        width:104px;
+        height: 52px;
+        margin-top: 3px;
+        left: calc(50% - 104px);
+    }
+}

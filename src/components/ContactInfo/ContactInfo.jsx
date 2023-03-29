@@ -7,7 +7,7 @@ import './ContactInfo.css';
 
 const ContactInfo = () => {
     return (
-        <div className='left-part__info'>
+        <div className='mobile-info left-part__info'>
             <div>
                 <img src={phone} alt='' />
                 <span>+1012 3456 789</span>

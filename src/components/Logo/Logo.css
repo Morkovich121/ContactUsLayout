@@ -1,5 +1,18 @@
-.itemClass {
+.itemClass .itemClass-menu {
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 700;
+}
+
+@media (max-width:1200px) {
+    .itemClass {
+        font-size: 18px;
+    }
+
+    .itemClass-menu {
+        font-size: 18px;
+        color: white;
+        display: block;
+        cursor: default;
+    }
 }

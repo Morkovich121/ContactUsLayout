@@ -8,12 +8,14 @@ import './Contact.css';
 const Contact = () => {
     return (
         <>
+            <div className='hideAll'>
+            </div>
             <div className='contacts-container'>
                 <Header />
                 <div className="main-part">
                     <div className="main-part_contact-us">
-                        <span>Contact Us</span>
-                        <span>Any question or remarks? Just write us a message!</span>
+                        <div>Contact Us</div>
+                        <div>Any question or remarks? Just write us a message!</div>
                     </div>
                     <Form />
                 </div>
