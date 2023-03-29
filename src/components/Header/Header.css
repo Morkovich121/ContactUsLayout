@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 200px);
+    width: calc(100%);
 }
 
 .header-menu {
@@ -10,6 +10,7 @@
     align-items: center;
     gap: 47px;
     width: fit-content;
+    font-family: 'Roboto';
 }
 
 .header-menu div {
@@ -46,8 +47,8 @@
     border-radius: 50%;
 }
 
-.round-container{
+.round-container {
     display: flex;
-    gap:47px;
+    gap: 47px;
     margin-left: 13px;
 }

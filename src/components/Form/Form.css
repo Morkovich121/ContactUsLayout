@@ -1,10 +1,11 @@
 .form-container {
     display: flex;
-    gap: 70px;
-    width: 1190px;
-    height: 665px;
+    gap: 50px;
+    width: 90%;
+    height: 700px;
     padding: 10px 25px;
     border-radius: 10px;
+    box-sizing: border-box;
     background-color: white;
 }
 
@@ -13,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 490px;
+    width: 41.5%;
     height: 100%;
     padding: 40px;
     border-radius: 10px 10px 0px 10px;
@@ -73,7 +74,7 @@
 
 .small {
     left: calc(85% - 138px);
-    top: calc(90% - 138px);
+    top: calc(90% - 130x);
     z-index: 2;
 }
 
@@ -82,7 +83,7 @@
     display: flex;
     flex-direction: column;
     gap: 45px;
-    width: 635px;
+    width: 50%;
     padding-top: 50px;
     box-sizing: border-box;
 }
@@ -115,7 +116,7 @@
     color: #000000;
 }
 
-input[type='text'] {
+.form-container input {
     width: 100%;
     border: none;
     font-weight: 500;
@@ -205,6 +206,7 @@ input[type='radio']:checked+div .active {
     font-weight: 500;
     font-size: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .letter {

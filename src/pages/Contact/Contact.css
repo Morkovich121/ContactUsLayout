@@ -1,8 +1,13 @@
 .contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: fit-content;
     padding: 41px 100px;
+    box-sizing: border-box;
     background-color: #FBFBFB;
+    overflow: hidden;
 }
 
 .main-part {
@@ -10,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    width: calc(100% - 200px);
+    width: calc(100%);
     margin-top: 70px;
 }
 
